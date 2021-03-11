@@ -19,4 +19,6 @@ tf.model.fit(x_train, y_train, epochs=200)
 
 # predict() returns predicted value
 y_predict = tf.model.predict(np.array([5, 4]))
+
+
 print(y_predict)
