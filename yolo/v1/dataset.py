@@ -13,6 +13,8 @@ def zero_trim_ndarray(ndarray):
   return ndarray[np.ix_(*bounds_per_dimension(ndarray))]
 
 
+
+
 # process ground-truth data for YOLO format
 def process_each_ground_truth(original_image,
                               bbox,
