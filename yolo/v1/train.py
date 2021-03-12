@@ -13,6 +13,8 @@ from dataset import process_each_ground_truth
 from utils import draw_bounding_box_and_label_info, generate_color, find_max_confidence_bounding_box, yolo_format_to_bounding_box_dict
 
 # set cat label dictionary
+
+
 cat_label_dict = {
   0: "cat"
 }
