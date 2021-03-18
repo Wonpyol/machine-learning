@@ -49,6 +49,7 @@ def process_each_ground_truth(original_image,
 
   image = tf.image.resize(image, [input_height, input_width])
 
+
   object_num = np.count_nonzero(bbox, axis=0)[0]
   labels = [[0, 0, 0, 0, 0]] * object_num
   for i in range(object_num):
