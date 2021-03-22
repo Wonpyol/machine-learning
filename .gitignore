@@ -1,5 +1,8 @@
 /.dataset/
 /.idea
+/.github/
+/yolov5/.ipynb_checkpoints/
+/yolov5/data/
 *.mp4
 *.MP4
 *.jpg
